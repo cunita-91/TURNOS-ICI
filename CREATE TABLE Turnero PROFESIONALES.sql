@@ -1,0 +1,5 @@
+CREATE TABLE Turnero.Profesionales (Id_prof INT AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+Apellido_prof VARCHAR (25) NOT NULL, 
+Nombre_prof VARCHAR (25) NOT NULL,
+Profesion VARCHAR (20) NOT NULL,
+Dia_atencion VARCHAR (10) NOT NULL) ENGINE = InnoDB;

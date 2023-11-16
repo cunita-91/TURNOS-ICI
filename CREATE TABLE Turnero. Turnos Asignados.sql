@@ -1,0 +1,8 @@
+
+CREATE TABLE Turnero.Turnos_asig (Id_turno INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+Id_prof INT NOT NULL,
+Id_ptes INT NOT NULL,
+Hora_turno DATE NOT NULL,
+Fecha_turno DATE NOT NULL,
+Estado_turno BOOLEAN NOT NULL) ENGINE= InnoDB; 
+ 
